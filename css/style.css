@@ -3,6 +3,10 @@ img {
     max-width: 100%;
 }
 
+section, footer[class*="-section"] {
+    padding: 2rem 0;
+}
+
 /* HEADER */
 header {
     height: 80px;
@@ -17,5 +21,69 @@ header {
 
 header .nav li {
     margin-left: 1rem;
-    text-align: end;
+}
+
+/* START SECTION */
+.start-section {
+    background-color: #1abc9c;
+}
+
+.profile-pic img {
+    width: 250px;
+}
+
+/* PORTFOLIO SECTION */
+.img-card img{
+    border-radius: 15px;
+}
+
+/* ABOUT-SECTION */
+.about-section {
+    background-color: #1abc9c;
+}
+
+.about-card {
+    padding: 1.5rem 1.5rem;
+}
+
+.download-btn a {
+    border: 1px solid white;
+    color: white;
+}
+
+/* CONTACT SECTION */
+input {
+    border: none;
+}
+
+.input-wrapper .input:last-child {
+    min-height: 200px;
+}
+
+.input {
+    border-bottom: 1px solid black;
+    padding: 1rem 0;
+}
+
+.send-btn {
+    background-color: #1abc9c;
+    border-radius: 5px;
+}
+
+/* FOOTER */
+.footer-top-section {
+    background-color: #3a546d;
+}
+
+.social li {
+    height: 50px;
+    width: 50px;
+    line-height: 50px;
+    border-radius: 50%;
+    border: 1px solid white;
+    list-style-type: none;
+}
+
+.footer-bottom {
+    background-color: #2c3e50;
 }
