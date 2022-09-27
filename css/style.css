@@ -100,26 +100,28 @@ header .nav li {
     color: #2c3e50;
 }
 
-.contact-section .input span{
+label {
     color: #2c3e50;
 }
 
 input {
     border: none;
+    border-bottom: 1px solid lightgrey !important;
+    width: 100%;
 }
 
-.input-wrapper .input:last-child {
-    min-height: 200px;
-}
-
-.input {
-    border-bottom: 1px solid black;
-    padding: 1rem 0;
+textarea {
+    border: none;
+    border-bottom: 1px solid lightgrey !important;
+    width: 100%;
 }
 
 .send-btn {
     background-color: #1abc9c;
     border-radius: 5px;
+    border: none;
+    padding: .5rem 1rem;
+    color: white;
 }
 
 /* FOOTER */
