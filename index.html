@@ -34,26 +34,21 @@
             </div>
         </div>
     </header>
+    <!-- /HEADER -->
+    <!-- MAIN -->
     <main>
         <section class="start-section">
-            <div class="container-sm">
-                <div class="row row-cols-1 text-center gy-3">
-                    <div class="col">
-                        <div class="profile-pic">
-                            <img src="img/avatar.svg" alt="">
-                        </div>
+            <div class="container">
+                <div class="text-center">
+                    <div class="profile-pic">
+                        <img src="img/avatar.svg" alt="">
                     </div>
-                    <div class="col">
-                        <h1>START BOOTSTRAP</h1>
+                    <h1 class="mt-3">START BOOTSTRAP</h1>
+                    <div class="star mt-3">
+                        <i class="fa-solid fa-star"></i>
                     </div>
-                    <div class="col">
-                        <div class="star">
-                            <i class="fa-solid fa-star"></i>
-                        </div>
-                    </div>
-                    <div class="col">
-                        <p class="fw-semibold">GRAPHIC ARTIST - WEB DESIGNER - ILLUSTRATOR</p>
-                    </div>
+                    <p class="fw-semibold mt-3">GRAPHIC ARTIST - WEB DESIGNER - ILLUSTRATOR
+                    </p>
                 </div>
             </div>
         </section>
@@ -134,29 +129,30 @@
                     <i class="fa-solid fa-star"></i>
                 </div>
             </div>
+        <form>
             <div class="container">
-                <div class="row justify-content-center">
-                    <div class="col-8">
+                    <div class="ms-input">
                         <label for="firstName" form="form-label">Nome</label>
                         <input type="text" id="firstName" form="form-control" required>
                     </div>
-                    <div class="col-8">
+                    <div class="ms-input">
                         <label for="emailAddress" form="form-label">Email Address</label>
                         <input type="text" id="emailAddress" form="form-control" required>
                     </div>
-                    <div class="col-8">
+                    <div class="ms-input">
                         <label for="phoneNumber" form="form-label">Phone Number</label>
                         <input type="text" id="phoneNumber" form="form-control" required>
                     </div>
-                    <div class="col-8">
+                    <div class="ms-input">
                         <label for="message" class="form-label">Messaggio</label>
                         <textarea type="text" id="message"></textarea>
                     </div>
-                    <div class="col-8">
-                        <button type="submit" class="send-btn mt-3">Send</button>
+                    <div class="ms-input">
+                        <button type="submit" class="btn ms-btn mt-3">Send</button>
                     </div>
                 </div>
             </div>
+        </form>
         </section>
         <footer>
             <section class="footer-top-section">
@@ -189,7 +185,7 @@
             </section>
         </footer>
     </main>
-    <!-- /HEADER -->
+    <!-- /MAIN -->
 
 </body>
 </html>
